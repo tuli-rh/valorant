@@ -10,3 +10,32 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+nav {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-container {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.logo {
+    display: flex;
+    gap: 25px;
+}
+
+.riot {
+    display: flex;
+    align-items: center;
+}
+
+.riot i {
+    color: #7E7E7E;
+}
+
