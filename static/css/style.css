@@ -10,11 +10,14 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* barra de navegacion */
+
 nav {
     background-color: #000;
     position: fixed;
     top: 0;
     width: 100%;
+    
 }
 
 .nav-container {
@@ -22,11 +25,12 @@ nav {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding: 25px 0;
+    height: 75px;
 }
 
 .logo {
     display: flex;
+    align-items: center;
     gap: 25px;
 }
 
@@ -39,3 +43,97 @@ nav {
     color: #7E7E7E;
 }
 
+.links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.button-links {
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.button-links:hover {
+    border-bottom: solid 3px #FF3B46;
+}
+
+.button-links button {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    height: 50%;
+    padding: 0 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.button-links button:hover {
+    background-color: #333333;
+    color: #FF3B46;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.play-now {
+    background-color: #FF3B46;
+    border: none;
+    height: 45%;
+    padding: 0 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.play-now:hover {
+    color: #f0232d;
+}
+
+.search-button {
+    color: #fff;
+    display: flex;
+    gap: 8px;
+    height: 100%;
+    align-items: center;
+}
+
+.search-button button {
+    background-color: #2B2A29;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    height: 60%;
+    width: 50px;
+    font-size: 20px;
+}
+
+.valorant {
+    margin-top: 75px;
+}
+
+.hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Eliminar bordes negros */
+    min-width: 100%;
+    min-height: 100%;
+    display: block;
+}
+
+.valo-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    /* font */
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: -1px;
+}

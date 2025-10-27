@@ -28,32 +28,53 @@
                     <img src="static/images/riot_games.png" alt="Servidor no disponible." width="90px"><i
                         class="bi bi-caret-down-fill"></i>
                 </div>
-                <img src="static/images/logo.png" alt="Servidor no disponible." width="30px">
+                <div class="logo-valo">
+                    <img src="static/images/logo.png" alt="Servidor no disponible." width="30px">
+                </div>
             </div>
             <div class="links">
-                <button>INFORMACIÓN DEL JUEGO <i class="bi bi-caret-down-fill"></i></button>
-                <button>MULTIMEDIA</button>
-                <button>NOTICIAS</button>
-                <button>SOPORTE <i class="bi bi-caret-down-fill"></i></button>
-                <button>REDES SOCIALES <i class="bi bi-caret-down-fill"></i></button>
-                <button>MÁS <i class="bi bi-caret-down-fill"></i></button>
+                <div class="button-links">
+                    <button>INFORMACIÓN DEL JUEGO <i class="bi bi-caret-down-fill"></i></button>
+                </div>
+                <div class="button-links">
+                    <button>MULTIMEDIA</button>
+                </div>
+                <div class="button-links">
+                    <button>NOTICIAS</button>
+                </div>
+                <div class="button-links">
+                    <button>SOPORTE <i class="bi bi-caret-down-fill"></i></button>
+                </div>
+                <div class="button-links">
+                    <button>REDES SOCIALES <i class="bi bi-caret-down-fill"></i></button>
+                </div>
+                <div class="button-links">
+                    <button>MÁS <i class="bi bi-caret-down-fill"></i></button>
+                </div>
             </div>
-            <div class="SEARCH">
-                <button><i class="bi bi-search"></i></button>
-                <i class="bi bi-globe2"></i>
-                <button>JUGAR AHORA</button>
+            <div class="search">
+                <div class="search-button">
+                    <button><i class="bi bi-search"></i></button>
+                    <i class="bi bi-globe"></i>
+                </div>
+                <button class="play-now">JUGAR AHORA</button>
             </div>
         </div>
     </nav>
 
     <main>
-        <div class="valorant">
-            <img src="static/images/valorant.png" alt="Servidor no disponible.">
-            <h2>VALORANT: UN JUEGO DE DISPAROS TÁCTICO 5V5 CON AGENTES QUE POSEEN HABILIDADES ÚNICAS</h2>
-            <button>JUEGA GRATIS</button>
-        </div>
+        <section class="valorant">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="static/videos/ValorantBackground.mp4" type="video/mp4">
+            </video>
+            <div class="valo-content">
+                <img src="static/images/valorant.png" alt="Servidor no disponible." width="300px">
+                <h1>VALORANT: UN JUEGO DE DISPAROS TÁCTICO 5V5 CON AGENTES QUE POSEEN HABILIDADES ÚNICAS</h1>
+                <button>JUEGA GRATIS</button>
+            </div>
+        </section>
 
-        <div class="noticias-recientes">
+        <section class="noticias-recientes">
             <div class="text-noti">
                 <h2>NOTICIAS MÁS RECIENTES</h2>
                 <P>IR LA PÁGINA DE NOTICIAS <i class="bi bi-arrow-return-right"></i></P>
@@ -95,17 +116,17 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="new-agent">
+        <section class="new-agent">
             <div class="text-agent">
                 <h2>NUEVO AGENTE: VETO</h2>
                 <P>Neutraliza el campo de batalla con veto y deja que ts disparos hablen por ti.</P>
                 <button>VER AHORA</button>
             </div>
-        </div>
+        </section>
 
-        <div class="somos-valo">
+        <section class="somos-valo">
             <div class="row">
                 <div class="text-valo">
                     <h2>SOMOS VALORANT</h2>
@@ -127,9 +148,9 @@
                     </video>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="tus-agentes">
+        <section class="tus-agentes">
             <div class="agent-text">
                 <h2>TUS AGENTES</h2>
                 <div class="text-agent">
@@ -141,9 +162,9 @@
                 </div>
                 <button>VER TODOS LOS AGENTES</button>
             </div>
-        </div>
+        </section>
 
-        <div class="tus-mapas">
+        <section class="tus-mapas">
             <div class="row">
                 <div class="text-mapas">
                     <h2>TUS MAPAS</h2>
@@ -160,7 +181,7 @@
                     <img src="static/images/tus_mapas.png" alt="Servidor no disponible.">
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer>
@@ -175,9 +196,10 @@
                 <i class="bi bi-facebook"></i>
             </div>
             <div class="riot-p">
-                <img src="static/images/riot_games.png" alt="Servidor no disponible.">
+                <img src="static/images/riot_games.png" alt="Servidor no disponible." width="100px">
                 <p><i class="bi bi-c-circle"></i> 2020-2025 Riot Games, Inc. RIOT GAMES, VALORANT y todos los logotipos
-                    relacionados son marcas y nombres comerciales, marcas de serviciio o marcas registradas de Riot Games, Inc.
+                    relacionados son marcas y nombres comerciales, marcas de serviciio o marcas registradas de Riot
+                    Games, Inc.
                 </p>
             </div>
             <div class="terminos-servicio">
